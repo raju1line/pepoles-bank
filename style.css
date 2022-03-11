@@ -1,0 +1,45 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 100px;
+}
+h1 {
+  color: darkgreen;
+}
+.submit-area {
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 6px;
+  width: 615px;
+  margin: 30px auto;
+  padding: 10px;
+}
+.color {
+  color: red;
+  margin-bottom: 100px;
+}
+#teansaction-area {
+  text-align: center;
+  display: none;
+}
+.comon {
+  margin: 0px 20px;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+.submit-area2 {
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 6px;
+  padding: 10px;
+}
+.balance-area {
+  margin-top: 100px;
+}
+.deposit {
+  background-color: slateblue;
+}
+.withdraw {
+  background-color: lightsalmon;
+}
+.blance {
+  background-color: orange;
+}
