@@ -1,3 +1,4 @@
+//login area
 const btnLogin = document.getElementById("login");
 btnLogin.addEventListener("click", function () {
   const loginArea = document.getElementById("login-area");
@@ -5,6 +6,7 @@ btnLogin.addEventListener("click", function () {
   const tansactionArea = document.getElementById("teansaction-area");
   tansactionArea.style.display = "block";
 });
+//diposit area
 const inputDiposit = document.getElementById("add-diposit");
 inputDiposit.addEventListener("click", function () {
   let dipositnum = updateValue("diposit-valu-area");
@@ -12,7 +14,7 @@ inputDiposit.addEventListener("click", function () {
   update("curent-balance", dipositnum);
   document.getElementById("diposit-valu-area").value = "";
 });
-
+//withdraw area
 const inputWitdraw = document.getElementById("input-withdraw");
 inputWitdraw.addEventListener("click", function () {
   let withdrawnum = updateValue("add-withdraw");
